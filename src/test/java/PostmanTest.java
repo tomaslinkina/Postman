@@ -8,7 +8,7 @@ public class PostmanTest {
     void test() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("hello")
                 .when()
                 .post("/post")
 
